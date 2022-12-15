@@ -29,7 +29,7 @@ Route::delete('/delete_user/{idUser}', [App\Http\Controllers\HomeController::cla
 
 //chat View
 Route::get('/chat',  [App\Http\Controllers\ChatController::class, 'index'])->name('chat');
-
+ 
 
 
 //chat Methods
