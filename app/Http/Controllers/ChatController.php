@@ -32,7 +32,7 @@ class ChatController extends Controller
     public function rooms(Request $request)
     {
         return ChatRoom::all();
-    }
+    } 
 
     public function message(Request $request, $roomId)
     {
