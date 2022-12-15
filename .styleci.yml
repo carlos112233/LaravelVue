@@ -1,4 +1,4 @@
-php:
+php: 
   preset: laravel
   version: 8
   disabled:
